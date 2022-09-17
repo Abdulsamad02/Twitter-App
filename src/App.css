@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+    background: #999;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .heading {
+    background: #3a8df4;
+    width: 55vw;
+    /* display: flex;
+    align-items: center; */
+    margin: 1rem auto;
+    padding: 1rem 0.7rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px #000;
+
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .header {
+    animation: header-animation 2s linear infinite;
+  }
+  @keyframes header-animation {
+    0% {
+      transform: scale(0.5);
+    }
+    25% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    75% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(0.5);
+    }
+  }
+  

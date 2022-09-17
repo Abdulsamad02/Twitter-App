@@ -1,0 +1,88 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn-input {
+    height: 2rem;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px #000;
+  }
+  
+  @media screen and (min-width: 760px) {
+    .btn-input {
+      width: 35vw;
+    }
+  }
+  
+  .btn-tweet {
+    margin: 0.6rem auto;
+    border-radius: 7px;
+    padding: 0.1rem 0.6rem;
+    border: 1px solid #000;
+    color: #0c21e7;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-tweet:hover {
+    background: lightskyblue;
+  }
+  
+  .btn-tweet {
+    animation: header-animation 5s linear infinite;
+  }
+  @keyframes header-animation {
+    0% {
+      transform: scale(0.7);
+    }
+    25% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    75% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(0.7);
+    }
+  }
+  
+  .tweet {
+    background: rgba(158, 207, 238, 0.733);
+    width: 70vw;
+    border-radius: 8px;
+    margin: 0.7rem auto;
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 760px) {
+    .tweet {
+      width: 45vw;
+    }
+  }
+  
+  .tweet-text {
+    font-size: small;
+    margin: 10px 6px;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .del-btn {
+    margin-right: 5px;
+    border-radius: 3px;
+    border: none;
+    color: red;
+    cursor: pointer;
+  }
+  

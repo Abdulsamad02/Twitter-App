@@ -1,0 +1,19 @@
+ .like-btn {
+   margin-top: 6px;
+   background: hsl(213, 89%, 59%) ;
+   color: #fff;
+   border: none;
+   padding: 3px 6px;
+   margin-bottom: 5px;
+   cursor: pointer;
+ }
+
+ .dislike-btn {
+   margin-top: 6px;
+   background: #eb1d36;
+   border: none;
+   border-radius: 3px;
+   padding: 2px 5px;
+   margin-bottom: 5px;
+   cursor: pointer;
+ }
